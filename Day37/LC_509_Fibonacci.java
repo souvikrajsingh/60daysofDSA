@@ -4,7 +4,7 @@ public class LC_509_Fibonacci {
 
     public static void main(String[] args) {
 
-        System.out.println(fib(2));
+        System.out.println(fib(14));
 
     }
     public static int fib(int n) {
