@@ -4,20 +4,18 @@ public class Revision_Recursion {
 
     public static void main(String[] args) {
 
-        printnums(1);
-
+        System.out.println(fibonacci(6));
     }
 
-    public static void printnums(int n)
-    {
-        if(n == 5 )
+    static int fibonacci(int n) {
+        if (n<2)
         {
-            System.out.println(n);
-            return;
+            return n;
         }
+        return fibonacci(n - 2) + fibonacci(n - 1) ;
 
-        System.out.println(n);
-        printnums(n+1);
+//        the recursive tree first finishes the right tree and then the left.
+
 
     }
 }
