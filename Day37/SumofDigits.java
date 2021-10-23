@@ -8,7 +8,7 @@ public class SumofDigits {
     }
 
     public static int sum_digit(int n) {
-        int rem;
+
             if (n == 0) {
                 return 0;
             }
