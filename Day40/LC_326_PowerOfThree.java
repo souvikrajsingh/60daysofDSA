@@ -1,5 +1,7 @@
 package com.souvik.Day40;
 
+//https://leetcode.com/problems/power-of-three/
+
 public class LC_326_PowerOfThree {
 
     public static void main(String[] args) {
